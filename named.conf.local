@@ -1,0 +1,9 @@
+zone "olimpo.test" {
+    type master;
+    file "/etc/bind/db.olimpo.test";
+};
+
+zone "57.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.168.57";
+};

@@ -1,0 +1,12 @@
+$TTL 86400
+@       IN      SOA     ns1.olimpo.test. admin.olimpo.test. (
+                        2025010101
+                        3600
+                        1800
+                        604800
+                        86400 )
+
+        IN      NS      ns1.olimpo.test.
+
+10      IN      PTR     ns1.olimpo.test.
+11      IN      PTR     mercurio.olimpo.test.
